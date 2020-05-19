@@ -1,0 +1,20 @@
+1.git init 
+
+2.git add test.txt
+
+3.git commit -m "xxxx"
+
+4.git status
+
+5.git diff test.txt
+
+6.git log
+  git log --pretty=oneline
+
+7.git reset head
+  git reset --hard head
+  git reset head^
+  git reset head~100
+  git reset --hard 1094a
+
+8.git checkout -- file 撤销修改

@@ -3,6 +3,4 @@ hello world
 
 nihao
 
-this is master
 
-this is v1

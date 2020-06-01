@@ -61,3 +61,17 @@ git checkout -- file命令中的--很重要，没有--，就变成了“切换�
 
 解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
 git --graph --pretty=oneline --abbrev-commit 命令可以看到分支合并图。
+
+12.git merge --no-ff
+
+13.git stash 
+   git statsh list
+   git stash apply stash@{0}
+   git stash drop stash@{0}
+   git stash pop
+
+14.git cherry-pick <commit>
+
+15.开发一个新feature，最好新建一个分支；
+
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
